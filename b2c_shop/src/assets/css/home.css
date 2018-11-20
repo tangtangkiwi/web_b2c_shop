@@ -1,0 +1,206 @@
+.wrap{
+    width: 720px;
+    overflow: hidden;
+    margin-bottom: 96px;
+    background: #e8e8e8;
+}
+.swiper-container{
+    width: 720px;
+    height: 320px;
+}
+.content{
+    width: 660px;
+    margin: 0 30px;
+    overflow: hidden;
+}
+.title{
+    position: relative;
+    width: 720px;
+    height: 96px;
+    background: #ade0cf;
+}
+.title .icon-saoyisao{
+    position: absolute;
+    left: 30px;
+    top: 28px;
+    font-size: 40px;
+    color: #05a26d;
+}
+.title div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 18px;
+    left: 157px;
+    width: 406px;
+    height: 60px;
+    background: #05a26d;
+    border-radius: 16px;
+}
+.title div .icon-sousuo1{
+    position: absolute;
+    left: 13px;
+    z-index: 999;
+    font-size: 40px;
+    color: #fff;
+}
+.title div input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 306px;
+    height: 60px;
+    padding: 0 50px;
+    font-size: 18px;
+    background: #05a26d;
+    border-radius: 16px;
+    color: #fff;
+    text-align: left;
+}
+input::-webkit-input-placeholder{ 
+    color:#fff; 
+    font-size:18px; 
+    text-align: center;
+}
+.title .icon-liuyan{
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    font-size: 40px;
+    color: #05a26d;
+}
+.home-nav{
+    width: 660px;
+    height: 205px;
+    overflow: hidden;
+    font-size: 23px;
+}
+.home-nav li{
+    float: left;
+    width: 120px;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+.home-nav li:nth-of-type(4){
+    margin-right: 0!important;
+}
+.home-nav li div{
+    line-height: 26px;
+}
+.total h2{
+    position: relative;
+    width: 660px;
+    height: 60px;
+    font-size: 32px;
+    line-height: 60px;
+    text-indent: 15px;
+}
+.total h2:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 5px;
+    height: 59px;
+    background: #e16f95;
+}
+.quality{
+    overflow: hidden;
+}
+.quality>img{
+    float: left;
+}
+.quality ul {
+    width: 373px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.quality ul li{
+    margin: 0 0 30px 29px;
+}
+.quality ul li,.quality ul li img{
+    float: left;
+    width: 157px;
+    height: 157px;
+}
+.new{
+    margin-bottom: 10px;
+}
+.new,.new ul{
+    overflow: hidden;
+}
+.new ul li{
+    float: left;
+    position: relative;
+    width: 210px;
+    height: 168px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+.new ul li:nth-of-type(5){
+    width: 435px;
+}
+.new ul li:nth-of-type(3),.new ul li:nth-of-type(5),.new ul li:nth-of-type(8){
+    margin-right: 0!important;
+}
+.new ul li i{
+    position: absolute;
+    left: 7px;
+    bottom: 7px;
+    font-size: 26px;
+    color: #7ed4b7;
+}
+.new ul li i em{
+    font-size: 13px;
+}
+.new ul li span{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #8be4c3;
+    font-size: 17px;
+}
+.many{
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.experience{
+    overflow: hidden;
+}
+.many>img,.experience>img{
+    margin-bottom: 30px;
+}
+.many ul,.experience ul{
+    width: 660px;
+    overflow: hidden;
+}
+.many ul li,.experience ul li{
+    float: left;
+    position: relative;
+    width: 210px;
+    height: 168px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.many ul li:nth-of-type(3),.many ul li:nth-of-type(6),.experience ul li:nth-of-type(3),.experience ul li:nth-of-type(6){
+    margin-right: 0!important;
+}
+.many ul li i,.experience ul li i{
+    position: absolute;
+    left: 7px;
+    bottom: 7px;
+    font-size: 26px;
+    color: #7ed4b7;
+}
+.many ul li i em,.experience ul li i em{
+    font-size: 13px;
+}
+.many ul li span,.experience ul li span{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #8be4c3;
+    font-size: 17px;
+}

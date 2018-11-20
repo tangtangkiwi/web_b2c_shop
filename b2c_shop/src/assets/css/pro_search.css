@@ -1,0 +1,193 @@
+#app{
+    background: #e8e8e8;
+}
+.wrap{
+    position: relative;
+    width: 720px;
+    height: 100%;
+    overflow: hidden;
+    background: #e8e8e8;
+}
+.title{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 720px;
+    height: 96px;
+    background: #ade0cf;
+}
+input::-webkit-input-placeholder{ 
+    color:#9bb6ad; 
+    font-size:18px; 
+    text-align: left;
+}
+.title .icon-mjiantou-copy{
+    position: absolute;
+    left: 40px;
+    font-size: 40px;
+    color: #1dab7b;
+}
+.title div{
+    position: absolute;
+    width: 402px;
+    height: 56px;
+    left: 190px;
+    border: 2px solid #799c90;
+}
+.title div input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 308px;
+    padding: 0 18px;
+    height: 56px;
+    background: #c6e9dd;
+    font-size: 25px;
+}
+.title div .icon-sousuo1{
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #05a26d;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+.content .icon-shanchu{
+    position: absolute;
+    right: 95px;
+}
+.content{
+    position: relative;
+    width: 660px;
+    margin: 0 30px;
+    overflow: hidden;
+}
+.content h4{
+    position: relative;
+    width: 660px;
+    height: 60px;
+    font-size: 28px;
+    line-height: 53px;
+}
+.content h4 i{
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    vertical-align: top;
+    color: #99d5c1;
+}
+.list-history{
+    width: 660px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.list-history li{
+    float: left;
+    font-size: 25px;
+    height: 30px;
+    padding: 0 5px;
+    margin: 0 5px 17px;
+    line-height: 30px;
+    color: #9e9e9e;
+    background: #fff;
+}
+.content span{
+    font-size: 23px;
+    line-height: 54px;
+}
+.list{
+    width: 660px;
+    height: 306px;
+}
+.list li{
+    float: left;
+    width: 276px;
+    height: 82px;
+    margin: 0 108px 20px 0;
+    background: #cae4db;
+}
+.list li:nth-of-type(2),.list li:nth-of-type(4),.list li:nth-of-type(6){
+    margin:  0 0 20px 0!important;
+}
+.list li div:nth-of-type(1){
+    position: relative;
+    float: left;
+    width: 194px;
+    height: 82px;
+    text-align: center;
+    color: #5a6662;
+}
+.list li div i:nth-of-type(1){
+    display: block;
+    width: 196px;
+    height: 45px;
+    font-size: 26px;
+    line-height: 45px;
+}
+.list li div i:nth-of-type(2){
+    font-size: 18px;
+    line-height: 30px;
+}
+.list li div:nth-of-type(2){
+    float: right;
+    width: 82px;
+    height: 82px;
+    background: #fff;
+    text-align: center;
+    line-height: 82px;
+}
+.list .icon-qipao{
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: -35px;
+    font-size: 30px;
+    color: #ff7e00;
+}
+.list .icon-qipao span{
+    position: absolute;
+    left: 8px;
+    top: 0;
+    font-size: 15px;
+    color: #fff;
+}
+.search{
+    position: absolute;
+    top: 710px;
+    left: 0;
+    width: 720px;
+    overflow: hidden;
+}
+.search div{
+    position: relative;
+    margin: 0 auto;
+    width: 404px;
+    height: 58px;
+    border: 1px solid #747474;
+}
+.search div input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 334px;
+    height: 58px;
+    padding: 0 10px;
+    font-size: 22px;
+    background: #e8e8e8;
+}
+input::-webkit-input-placeholder{
+    font-size: 22px;
+    color: #b8b8b8;
+}
+.search div .icon-yuyin{
+    position: absolute;
+    top: 13px;
+    right: 9px;
+    font-size: 35px;
+    color: #5d5d5d;
+}

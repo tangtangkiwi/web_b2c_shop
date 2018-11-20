@@ -1,0 +1,112 @@
+.wrap{
+    width: 720ox;
+    height: 100%;
+    /* background-image: url(../img/register.png); */
+    /* background-image: url(./static/img/register.png); */
+    background-position-y: 97px;
+}
+.content{
+    position: relative;
+    width: 305px;
+    height: 505px;
+    margin: 0 auto;
+    padding-top: 169px;
+}
+.content>span{
+    position: absolute;
+    top:65px;
+    left: 50%;
+    margin-left: -54px;
+    display: block;
+    width: 108px;
+    height: 108px;
+    border: 3px solid #ff9d00;
+    border-radius: 108px;
+    text-align: center;
+    line-height: 108px;
+}
+.content>span .icon-yonghu1{
+    font-size: 54px;
+    color: #fff;
+}
+.list li{
+    width: 306px;
+    padding-top: 39px;
+    height: 35px;
+    border-bottom: 2px solid #ff9d00;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 35px;
+    overflow: hidden;
+}
+.list li input{
+    float: right;
+    width: 190px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    background: transparent;
+    font-size: 25px;
+}
+.verify{
+    position: relative;
+    width: 303px;
+    height: 44px;
+    margin: 50px 0 33px;
+    border: 1px solid #db8d5d;
+}
+.verify input{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 150px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 30px;
+    background: transparent;
+}
+.verify span{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 153px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    background: #fea009;
+}
+.deal{
+    font-size: 18px;
+    margin: 10px 0 25px;
+}
+.deal span:nth-of-type(1){
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ff9d00;
+    margin-right: 4px;
+}
+.deal span em{
+    color: #ff9d00;
+}
+.deal .icon-gou{
+    position: absolute;
+    left: 0;
+    top: -3px;
+    font-size: 18px;
+    color: #fff;
+}
+.login-register{
+    width: 305px;
+    height: 44px;
+    margin-bottom: 20px;
+    background: #ff9d00;
+    font-size: 20px;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+}

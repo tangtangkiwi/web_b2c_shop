@@ -1,0 +1,103 @@
+.wrap{
+    background: #e0e0e0;
+}
+.content{
+    width: 660px;
+    padding: 0 30px;
+    margin-bottom: 96px;
+    overflow: hidden;
+}
+.header{
+    height: 114px;
+    display: flex;
+    align-items: center;
+}
+.header div{
+    position: relative;
+    width: 344px;
+    height: 56px;
+    margin-left: 126px;
+    border: 1px solid #9c9c9c;
+}
+.header div input{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 308px;
+    height: 56px;
+    padding: 0 18px;
+    font-size: 20px;
+}
+input::-webkit-input-placeholder{ 
+    color:#bfbfbf; 
+    font-size:18px; 
+}
+.header .icon-fangdajing{
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    background: #05a26d;
+    text-align: center;
+    line-height: 58px;
+    font-size: 28px;
+    color: #fff;
+}
+.header+h3{
+    font-size: 32px;
+    margin-bottom: 17px;
+}
+.list{
+    position: relative;
+    width: 660px;
+    overflow: hidden;
+    font-size: 28px;
+    padding-bottom: 1px;
+    border: 1px solid #868686;
+}
+.list::before{
+    position: absolute;
+    top: 73px;
+    left: 0;
+    content: '';
+    width: 718px;
+    height: 1px;
+    background: #868686;
+    z-index: 0;
+}
+.list li{
+    float: left;
+    width: 165px;
+    line-height: 73px;
+    text-align: center;
+}
+.list .router-link-exact-active{
+    position: relative;
+    color: #ff7e00;
+}
+.list .router-link-exact-active:before{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    content: '';
+    width: 79px;
+    height: 1px;
+    background: #ff7e00;
+}
+.list .router-link-exact-active:after{
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    content: '';
+    width: 79px;
+    height: 1px;
+    background: #ff7e00;
+}
+.list .router-link-exact-active:before::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #ff0;
+}

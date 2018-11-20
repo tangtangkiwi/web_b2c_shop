@@ -1,0 +1,111 @@
+.wrap{
+    width: 720px;
+    overflow: hidden;
+    background: #efefef;
+}
+.content{
+    width: 660px;
+    padding: 0 30px;
+    overflow: hidden;
+}
+.header{
+    height: 114px;
+    display: flex;
+    align-items: center;
+}
+.header div{
+    position: relative;
+    width: 344px;
+    height: 56px;
+    margin-left: 126px;
+    border: 1px solid #9c9c9c;
+}
+.header div input{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 308px;
+    height: 56px;
+    padding: 0 18px;
+    font-size: 20px;
+    background: #efefef;
+}
+input::-webkit-input-placeholder{ 
+    color:#bfbfbf; 
+    font-size:18px; 
+}
+.header .icon-fangdajing{
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    background: #05a26d;
+    text-align: center;
+    line-height: 58px;
+    font-size: 28px;
+    color: #fff;
+}
+.list{
+    width: 660px;
+    margin-bottom: 28px;
+    overflow: hidden;
+    background: #ade0cf;
+}
+.list li{
+    float: left;
+    width: 105px;
+    height: 60px;
+    font-size: 22px;
+    color: #222;
+    line-height: 60px;
+    text-align: center;
+}
+.list .icon-iconfont-sort-big{
+    font-size: 22px;
+    color: #ff7e00;
+}
+.list-lis-active{
+    background: #fff;
+}
+.list-show{
+    width: 660px;
+    overflow: hidden;
+}
+.list-show li{
+    float: left;
+    width: 318px;
+    height: 318px;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 20px;
+}
+.list-show-li{
+    margin-right: 20px;
+}
+.list-show li div:nth-of-type(1){
+    height: 258px;
+    width: 318px;
+    line-height: 258px;
+    text-align: center;
+}
+.list-show li div:nth-of-type(2){
+    position: relative;
+    width: 318px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.list-show li div em{
+    font-size: 22px;
+    color: #ff7e00;
+    text-indent: 13px;
+}
+.list-show li div .icon-gouwuche{
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    display: inline-block;
+    font-size: 20px;
+    color:#ff542e;
+    -webkit-transform: rotateY(180deg);
+}
+

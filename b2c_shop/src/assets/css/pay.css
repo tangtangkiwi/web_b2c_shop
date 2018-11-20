@@ -1,0 +1,116 @@
+.shade{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    opacity: 0.5;
+    background: #666;
+}
+.pay{
+    position: fixed;
+    top: 527px;
+    width: 660px;
+    height: 473px;
+    margin: 0 30px;
+    background: #fff;
+    opacity: 1!important;
+    z-index: 10000;
+}
+.pay-header{
+    width: 660px;
+    height: 111px;
+    border-bottom: 1px solid #b2b2b2;
+    text-align: center;
+}
+.pay-header>div:nth-of-type(1){
+    line-height: 66px;
+}
+.pay-header>div:nth-of-type(1) span{
+    font-size: 36px;
+    vertical-align: middle;
+}
+.pay-header>div:nth-of-type(1) img{
+    vertical-align: middle;
+}
+.pay-header>div:nth-of-type(2){
+    font-size: 18px;
+}
+.pay-content{
+    width: 660px;
+    overflow: hidden;
+}
+.pay-content>div{
+    height: 67px;
+    padding: 0 25px;
+    border: 1px solid #b2b2b2;
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 25px;
+}
+.pay-content>div:nth-of-type(1) span:nth-of-type(2) em{
+    color: #d2d2d2;
+    vertical-align: top;
+}
+.pay-content>div span:nth-of-type(2){
+    position: absolute;
+    right: 25px;
+}
+.pay-content>div .icon-arrow-right-copy-copy-copy{
+    font-size: 30px;
+}
+.pay form{
+    margin: 0 auto;
+    width: 608px;
+    overflow: hidden;
+}
+.pay form div:nth-of-type(1){
+    position: relative;
+    margin: 17px auto 10px;
+    width: 606px;
+    height: 81px;
+    border: 1px solid #999999;
+    line-height: 81px;
+    overflow: hidden;
+}
+.pay form div:nth-of-type(1) span{
+    display: inline-block;
+    width: 180px;
+    border-right: 1px solid #e5e5e5;
+    font-size: 32px;
+    color: #757575;
+}
+.pay form div:nth-of-type(1):before{
+    position: absolute;
+    top: 11px;
+    left: 205px;
+    width: 1px;
+    height: 60px;
+    background: #000;
+    content: '';
+}
+.pay form div:nth-of-type(1) input{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    width: 356px;
+    height: 76px;
+    line-height: 78px;
+    font-size: 32px;
+}
+.pay form div:nth-of-type(2),.pay form div:nth-of-type(3){
+    float: left;
+    width: 288px;
+    height: 78px;
+    text-align: center;
+    line-height: 78px;
+    font-size: 32px;
+}
+.pay form div:nth-of-type(2){
+    border: 1px solid #999;
+}
+.pay form div:nth-of-type(3){
+    border: 1px solid #ff9d00;
+    background: #ff9d00;
+    color: #fff;
+}

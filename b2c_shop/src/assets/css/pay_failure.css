@@ -1,0 +1,87 @@
+.shade{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    opacity: 0.5;
+    background: #666;
+}
+.pay{
+    position: fixed;
+    top: 527px;
+    width: 660px;
+    height: 473px;
+    margin: 0 30px;
+    background: #fff;
+    opacity: 1!important;
+    z-index: 10000;
+}
+.pay img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.pay-header{
+    height: 120px;
+    width: 660px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 34px;
+}
+.pay-header span:nth-of-type(1){
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    background: #ff9d00;
+    text-align: center;
+    line-height: 58px;
+    border-radius: 58px;
+    color: #fff;
+}
+.pay-header .icon-cha{
+    font-size: 50px;
+}
+.pay-content{
+    margin-left: 60px;
+    margin-right: 50px;
+    font-size: 25px;
+    line-height: 40px;
+}
+.pay-content p:nth-last-child(1){
+    line-height: 35px;
+}
+.pay-content span{
+    color: #ff9d00;
+}
+.pay-footer{
+    position: absolute;
+    bottom: 15px;
+    width: 640px;
+    height: 95px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 78px;
+    font-size: 33px;
+}
+.pay-footer div:nth-of-type(1){
+    float: left;
+    width: 288px;
+    height: 78px;
+    margin-right: 60px;
+    border: 1px solid #ff9d00;
+    background: #ff9d00;
+    color: #fff;
+}
+.pay-footer div:nth-of-type(2){
+    float: left;
+    position: relative;
+    width: 288px;
+    height: 78px;
+    border: 1px solid #999;
+}
+.pay-footer .icon-arrow-right-copy-copy-copy{
+    position: absolute;
+    right: 40px;
+    top: 5px;
+    font-size: 33px;
+}
